@@ -1,3 +1,5 @@
+include $(top_srcdir)/common.mk
+
 noinst_LIBRARIES = libcore.a
 
 libcore_a_SOURCES = actor.cpp actor.hpp

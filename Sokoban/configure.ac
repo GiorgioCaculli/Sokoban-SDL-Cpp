@@ -59,6 +59,7 @@ AC_CONFIG_FILES([
     Makefile
 ])
 
+# Symlink Data Files
 AC_CONFIG_LINKS([
     assets/levels/00.lvl:src/assets/levels/00.lvl
     assets/levels/01.lvl:src/assets/levels/01.lvl

@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="Sokoban" targetName="Sokoban" />
+    </generated>
+  </component>
+  <component name="CMakeSettings" AUTO_RELOAD="true">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" ENABLED="true" GENERATION_DIR="$PROJECT_DIR$/../build" CONFIG_NAME="Debug" GENERATION_OPTIONS="-G &quot;Unix Makefiles&quot;" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d381d340-48f1-481a-b31d-49c761a2e31d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Makefile.am" beforeDir="false" afterPath="$PROJECT_DIR$/Makefile.am" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sokoban.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/Sokoban.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configure" beforeDir="false" afterPath="$PROJECT_DIR$/configure" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configure.ac" beforeDir="false" afterPath="$PROJECT_DIR$/configure.ac" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/core/Makefile.am" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/Makefile.am" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/core/actor.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/actor.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/core/actor.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/actor.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/core/board.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/board.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/core/board.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/board.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/core/box.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/box.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/core/box.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/box.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/core/movable.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/movable.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/core/movable.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/movable.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/core/platform.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/platform.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/core/platform.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/platform.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/core/player.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/player.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/core/player.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/player.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/core/wall.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/wall.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/core/wall.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/wall.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.hpp" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MacroExpansionManager">
+    <option name="directoryName" value="380bjm2v" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectApplicationVersion">
+    <option name="ide" value="CLion" />
+    <option name="majorVersion" value="2021" />
+    <option name="minorVersion" value="3" />
+  </component>
+  <component name="ProjectId" id="22ISeTOKRLb7gOu1RgIE1P3v7RC" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="RunOnceActivity.cidr.known.project.marker" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="cf.first.check.clang-format" value="false" />
+    <property name="cidr.known.project.marker" value="true" />
+    <property name="cmake.loaded.for.project" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../build" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Sokoban" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Sokoban" TARGET_NAME="Sokoban" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Sokoban" RUN_TARGET_NAME="Sokoban">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d381d340-48f1-481a-b31d-49c761a2e31d" name="Changes" comment="" />
+      <created>1639523708447</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1639523708447</updated>
+      <workItem from="1639523714826" duration="1591000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

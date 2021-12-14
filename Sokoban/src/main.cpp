@@ -1,11 +1,15 @@
 #include "main.hpp"
 
+#include "core/board.hpp"
+
 #include <SDL2/SDL.h>
 #include <SDL2/SDL_image.h>
 
 #include <iostream>
 
-/** Starts up SDL and creates a window */
+/**
+ * Starts up SDL and creates a window
+ */
 bool init();
 
 /** Loads media */
@@ -27,17 +31,30 @@ SDL_Surface *screen_surface = nullptr;
 /** The image we will load and show on the screen */
 SDL_Surface *box_surface = nullptr;
 
-int main()
+int main( int argc, char *argv[] )
 {
     std::cout << "Sokoban by Giorgio Caculli W/ SDL2" << std::endl;
 
-    if( !init() )
+    std::cout << "Number of arguments: " << std::to_string( argc ) << std::endl;
+
+    std::cout << "Calling: ";
+    for ( int i = 0; i < argc; i++ )
+    {
+        std::cout << argv[ i ] << " ";
+    }
+    std::cout << std::endl;
+
+    Board board = Board( "assets/levels/00.lvl" );
+
+    std::cout << board.to_string() << std::endl;
+
+    if ( !init() )
     {
         std::cerr << "Failed to initialize" << std::endl;
     }
     else
     {
-        if( !load_media() )
+        if ( !load_media() )
         {
             std::cerr << "Failed to load media!" << std::endl;
         }
@@ -58,7 +75,7 @@ bool init()
 {
     bool success = true;
 
-    if( SDL_Init( SDL_INIT_VIDEO ) < 0 )
+    if ( SDL_Init( SDL_INIT_VIDEO ) < 0 )
     {
         std::cerr << "SDL could not initialize! SDL_Error: " << SDL_GetError() << std::endl;
         success = false;
@@ -66,7 +83,7 @@ bool init()
     else
     {
         window = SDL_CreateWindow( "Sokoban", SDL_WINDOWPOS_UNDEFINED, SDL_WINDOWPOS_UNDEFINED, SCREEN_WIDTH, SCREEN_HEIGHT, SDL_WINDOW_SHOWN );
-        if( window == nullptr )
+        if ( window == nullptr )
         {
             std::cerr << "Window could not be created! SDL_Error: " << SDL_GetError() << std::endl;
             success = false;
@@ -86,7 +103,7 @@ bool load_media()
 
     box_surface = IMG_Load( "assets/images/Preview_Sokoban.png" );
 
-    if( box_surface == nullptr )
+    if ( box_surface == nullptr )
     {
         std::cerr << "Unable to load image Preview_Sokoban.png" << std::endl;
         success = false;

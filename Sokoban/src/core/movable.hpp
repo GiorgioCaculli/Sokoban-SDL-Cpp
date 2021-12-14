@@ -3,20 +3,20 @@
 
 #include "actor.hpp"
 
-
 class Movable
-: public Actor
+        : public Actor
 {
-    public:
-        Movable( int x, int y );
-        ~Movable() override;
-        Movable( const Movable& other );
-        Movable& operator=( const Movable& other );
-        void move( int dx, int dy );
+public:
+    Movable( int x, int y );
+    ~Movable() override;
+    Movable( const Movable &other );
+    Movable &operator=( const Movable &other );
+    void move( int dx, int dy );
+    std::string to_string() const override;
 
-    protected:
+protected:
 
-    private:
+private:
 };
 
 #endif // MOVABLE_HPP

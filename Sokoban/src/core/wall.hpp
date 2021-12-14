@@ -3,19 +3,19 @@
 
 #include "actor.hpp"
 
-
 class Wall
-: public Actor
+        : public Actor
 {
-    public:
-        Wall( int x, int y );
-        virtual ~Wall();
-        Wall(const Wall& other);
-        Wall& operator=(const Wall& other);
+public:
+    Wall( int x, int y );
+    virtual ~Wall();
+    Wall( const Wall &other );
+    Wall &operator=( const Wall &other );
+    std::string to_string() const override;
 
-    protected:
+protected:
 
-    private:
+private:
 };
 
 #endif // WALL_HPP

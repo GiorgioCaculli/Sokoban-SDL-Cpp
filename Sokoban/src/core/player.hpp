@@ -3,19 +3,19 @@
 
 #include "movable.hpp"
 
-
 class Player
-: public Movable
+        : public Movable
 {
-    public:
-        Player( int x, int y );
-        virtual ~Player();
-        Player(const Player& other);
-        Player& operator=(const Player& other);
+public:
+    Player( int x, int y );
+    virtual ~Player();
+    Player( const Player &other );
+    Player &operator=( const Player &other );
+    std::string to_string() const override;
 
-    protected:
+protected:
 
-    private:
+private:
 };
 
 #endif // PLAYER_HPP
