@@ -14,6 +14,7 @@
 
 ## Build Tools:
 - Autotools
+- CMake
 
 ## Building Instructions:
 
@@ -23,3 +24,9 @@
 3. autoreconf -fiv ../Sokoban
 4. ../Sokoban/configure
 5. make
+
+### CMake
+1. mkdir build
+2. cd build
+3. cmake ../Sokoban
+4. make
