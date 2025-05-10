@@ -1,18 +1,665 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
-    <generated>
-      <config projectName="Sokoban" targetName="Sokoban" />
-    </generated>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="CMakePresetLoader"><![CDATA[{
+  "useNewFormat": true
+}]]></component>
+  <component name="CMakeProjectFlavorService">
+    <option name="flavorId" value="CMakePlainProjectFlavor" />
+  </component>
+  <component name="CMakeReloadState">
+    <option name="reloaded" value="true" />
+  </component>
+  <component name="CMakeRunConfigurationManager">
+    <generated />
   </component>
   <component name="CMakeSettings" AUTO_RELOAD="true">
     <configurations>
       <configuration PROFILE_NAME="Debug" ENABLED="true" GENERATION_DIR="$PROJECT_DIR$/../build" CONFIG_NAME="Debug" GENERATION_OPTIONS="-G &quot;Unix Makefiles&quot;" />
+      <configuration PROFILE_NAME="Release" ENABLED="true" CONFIG_NAME="Release" />
     </configurations>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d381d340-48f1-481a-b31d-49c761a2e31d" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/../LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Sokoban.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Sokoban.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Makefile.am" beforeDir="false" afterPath="$PROJECT_DIR$/Makefile.am" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sokoban.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/Sokoban.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aclocal.m4" beforeDir="false" afterPath="$PROJECT_DIR$/aclocal.m4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common.mk" beforeDir="false" afterPath="$PROJECT_DIR$/common.mk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config.h.in" beforeDir="false" afterPath="$PROJECT_DIR$/config.h.in" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configure.ac" beforeDir="false" afterPath="$PROJECT_DIR$/configure.ac" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ltmain.sh" beforeDir="false" afterPath="$PROJECT_DIR$/ltmain.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/m4/ax_boost_base.m4" beforeDir="false" afterPath="$PROJECT_DIR$/m4/ax_boost_base.m4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/m4/ax_boost_date_time.m4" beforeDir="false" afterPath="$PROJECT_DIR$/m4/ax_boost_date_time.m4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/m4/ax_boost_filesystem.m4" beforeDir="false" afterPath="$PROJECT_DIR$/m4/ax_boost_filesystem.m4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/m4/ax_boost_locale.m4" beforeDir="false" afterPath="$PROJECT_DIR$/m4/ax_boost_locale.m4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/m4/ax_boost_log.m4" beforeDir="false" afterPath="$PROJECT_DIR$/m4/ax_boost_log.m4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/m4/ax_boost_log_setup.m4" beforeDir="false" afterPath="$PROJECT_DIR$/m4/ax_boost_log_setup.m4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/m4/ax_boost_system.m4" beforeDir="false" afterPath="$PROJECT_DIR$/m4/ax_boost_system.m4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/m4/ax_boost_thread.m4" beforeDir="false" afterPath="$PROJECT_DIR$/m4/ax_boost_thread.m4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/m4/ax_cxx_compile_stdcxx.m4" beforeDir="false" afterPath="$PROJECT_DIR$/m4/ax_cxx_compile_stdcxx.m4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/m4/libtool.m4" beforeDir="false" afterPath="$PROJECT_DIR$/m4/libtool.m4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/m4/ltoptions.m4" beforeDir="false" afterPath="$PROJECT_DIR$/m4/ltoptions.m4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/m4/ltsugar.m4" beforeDir="false" afterPath="$PROJECT_DIR$/m4/ltsugar.m4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/m4/ltversion.m4" beforeDir="false" afterPath="$PROJECT_DIR$/m4/ltversion.m4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/m4/lt~obsolete.m4" beforeDir="false" afterPath="$PROJECT_DIR$/m4/lt~obsolete.m4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/m4/pkg.m4" beforeDir="false" afterPath="$PROJECT_DIR$/m4/pkg.m4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Makefile.am" beforeDir="false" afterPath="$PROJECT_DIR$/src/Makefile.am" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/fonts/ConnectionIi-2wj8.otf" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/fonts/ConnectionIi-2wj8.otf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/fonts/KodomoRounded.otf" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/fonts/KodomoRounded.otf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/fonts/OFL.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/fonts/OFL.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/fonts/RampartOne-Regular.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/fonts/RampartOne-Regular.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/fonts/freefont/AUTHORS" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/fonts/freefont/AUTHORS" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/fonts/freefont/COPYING" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/fonts/freefont/COPYING" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/fonts/freefont/CREDITS" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/fonts/freefont/CREDITS" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/fonts/freefont/ChangeLog" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/fonts/freefont/ChangeLog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/fonts/freefont/FreeMono.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/fonts/freefont/FreeMono.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/fonts/freefont/FreeMonoBold.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/fonts/freefont/FreeMonoBold.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/fonts/freefont/FreeMonoBoldOblique.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/fonts/freefont/FreeMonoBoldOblique.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/fonts/freefont/FreeMonoOblique.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/fonts/freefont/FreeMonoOblique.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/fonts/freefont/FreeSans.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/fonts/freefont/FreeSans.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/fonts/freefont/FreeSansBold.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/fonts/freefont/FreeSansBold.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/fonts/freefont/FreeSansBoldOblique.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/fonts/freefont/FreeSansBoldOblique.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/fonts/freefont/FreeSansOblique.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/fonts/freefont/FreeSansOblique.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/fonts/freefont/FreeSerif.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/fonts/freefont/FreeSerif.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/fonts/freefont/FreeSerifBold.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/fonts/freefont/FreeSerifBold.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/fonts/freefont/FreeSerifBoldItalic.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/fonts/freefont/FreeSerifBoldItalic.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/fonts/freefont/FreeSerifItalic.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/fonts/freefont/FreeSerifItalic.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/fonts/freefont/INSTALL" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/fonts/freefont/INSTALL" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/fonts/freefont/README" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/fonts/freefont/README" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/fonts/freefont/TROUBLESHOOTING" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/fonts/freefont/TROUBLESHOOTING" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/fonts/freefont/USAGE" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/fonts/freefont/USAGE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/fonts/misc/Connection II-1260.sfd" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/fonts/misc/Connection II-1260.sfd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/fonts/misc/SIL Open Font License-7679.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/fonts/misc/SIL Open Font License-7679.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/Buttons.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/Buttons.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/PNG/Character1.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/PNG/Character1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/PNG/Character10.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/PNG/Character10.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/PNG/Character2.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/PNG/Character2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/PNG/Character3.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/PNG/Character3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/PNG/Character4.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/PNG/Character4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/PNG/Character5.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/PNG/Character5.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/PNG/Character6.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/PNG/Character6.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/PNG/Character7.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/PNG/Character7.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/PNG/Character8.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/PNG/Character8.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/PNG/Character9.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/PNG/Character9.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/PNG/CrateDark_Beige.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/PNG/CrateDark_Beige.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/PNG/CrateDark_Black.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/PNG/CrateDark_Black.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/PNG/CrateDark_Blue.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/PNG/CrateDark_Blue.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/PNG/CrateDark_Brown.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/PNG/CrateDark_Brown.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/PNG/CrateDark_Gray.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/PNG/CrateDark_Gray.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/PNG/CrateDark_Purple.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/PNG/CrateDark_Purple.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/PNG/CrateDark_Red.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/PNG/CrateDark_Red.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/PNG/CrateDark_Yellow.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/PNG/CrateDark_Yellow.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/PNG/Crate_Beige.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/PNG/Crate_Beige.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/PNG/Crate_Black.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/PNG/Crate_Black.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/PNG/Crate_Blue.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/PNG/Crate_Blue.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/PNG/Crate_Brown.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/PNG/Crate_Brown.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/PNG/Crate_Gray.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/PNG/Crate_Gray.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/PNG/Crate_Purple.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/PNG/Crate_Purple.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/PNG/Crate_Red.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/PNG/Crate_Red.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/PNG/Crate_Yellow.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/PNG/Crate_Yellow.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/PNG/EndPoint_Beige.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/PNG/EndPoint_Beige.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/PNG/EndPoint_Black.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/PNG/EndPoint_Black.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/PNG/EndPoint_Blue.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/PNG/EndPoint_Blue.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/PNG/EndPoint_Brown.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/PNG/EndPoint_Brown.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/PNG/EndPoint_Gray.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/PNG/EndPoint_Gray.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/PNG/EndPoint_Purple.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/PNG/EndPoint_Purple.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/PNG/EndPoint_Red.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/PNG/EndPoint_Red.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/PNG/EndPoint_Yellow.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/PNG/EndPoint_Yellow.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/PNG/GroundGravel_Concrete.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/PNG/GroundGravel_Concrete.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/PNG/GroundGravel_Dirt.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/PNG/GroundGravel_Dirt.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/PNG/GroundGravel_Grass.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/PNG/GroundGravel_Grass.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/PNG/GroundGravel_Sand.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/PNG/GroundGravel_Sand.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/PNG/Ground_Concrete.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/PNG/Ground_Concrete.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/PNG/Ground_Dirt.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/PNG/Ground_Dirt.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/PNG/Ground_Grass.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/PNG/Ground_Grass.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/PNG/Ground_Sand.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/PNG/Ground_Sand.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/PNG/WallRound_Beige.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/PNG/WallRound_Beige.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/PNG/WallRound_Black.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/PNG/WallRound_Black.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/PNG/WallRound_Brown.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/PNG/WallRound_Brown.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/PNG/WallRound_Gray.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/PNG/WallRound_Gray.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/PNG/Wall_Beige.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/PNG/Wall_Beige.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/PNG/Wall_Black.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/PNG/Wall_Black.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/PNG/Wall_Brown.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/PNG/Wall_Brown.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/PNG/Wall_Gray.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/PNG/Wall_Gray.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/Preview_Sokoban.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/Preview_Sokoban.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/Sample_Sokoban.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/Sample_Sokoban.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/Spritesheet/boxes_spritesheet.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/Spritesheet/boxes_spritesheet.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/Spritesheet/character_spritesheet.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/Spritesheet/character_spritesheet.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/Spritesheet/ground_gravel_spritesheet.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/Spritesheet/ground_gravel_spritesheet.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/Spritesheet/ground_spritesheet.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/Spritesheet/ground_spritesheet.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/Spritesheet/platforms_spritesheet.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/Spritesheet/platforms_spritesheet.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/Spritesheet/sprites.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/Spritesheet/sprites.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/Spritesheet/sprites.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/Spritesheet/sprites.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/Spritesheet/wall_round_spritesheet.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/Spritesheet/wall_round_spritesheet.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/Spritesheet/wall_spritesheet.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/Spritesheet/wall_spritesheet.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/Vector/Sokoban.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/Vector/Sokoban.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/Vector/Sokoban.swf" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/Vector/Sokoban.swf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/license.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/license.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/levels/00.lvl" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/levels/00.lvl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/levels/01.lvl" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/levels/01.lvl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/levels/02.lvl" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/levels/02.lvl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/levels/03.lvl" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/levels/03.lvl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/levels/04.lvl" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/levels/04.lvl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/levels/05.lvl" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/levels/05.lvl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/levels/06.lvl" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/levels/06.lvl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/levels/07.lvl" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/levels/07.lvl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/levels/08.lvl" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/levels/08.lvl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/levels/09.lvl" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/levels/09.lvl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/levels/10.lvl" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/levels/10.lvl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/levels/11.lvl" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/levels/11.lvl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/levels/12.lvl" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/levels/12.lvl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/levels/13.lvl" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/levels/13.lvl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/levels/14.lvl" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/levels/14.lvl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/levels/15.lvl" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/levels/15.lvl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/levels/16.lvl" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/levels/16.lvl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/levels/17.lvl" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/levels/17.lvl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/levels/18.lvl" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/levels/18.lvl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/levels/19.lvl" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/levels/19.lvl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/levels/20.lvl" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/levels/20.lvl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/levels/21.lvl" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/levels/21.lvl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/levels/22.lvl" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/levels/22.lvl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/levels/23.lvl" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/levels/23.lvl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/levels/24.lvl" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/levels/24.lvl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/levels/25.lvl" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/levels/25.lvl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/levels/26.lvl" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/levels/26.lvl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/music/Field_-_Desolate_Domain.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/music/Field_-_Desolate_Domain.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/music/Field_-_Golden_Harvest.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/music/Field_-_Golden_Harvest.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/music/Field_-_Greatest_Nation.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/music/Field_-_Greatest_Nation.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/music/Field_-_Hades_Holiday.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/music/Field_-_Hades_Holiday.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/music/Field_-_Homeland_Return.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/music/Field_-_Homeland_Return.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/music/Field_-_Shattered_Lands.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/music/Field_-_Shattered_Lands.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/music/Theme_-_Courting_The_Princess.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/music/Theme_-_Courting_The_Princess.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/music/Theme_-_Festival_Fun.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/music/Theme_-_Festival_Fun.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/music/Theme_-_Funeral_March.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/music/Theme_-_Funeral_March.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/music/Theme_-_Tournament_Time.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/music/Theme_-_Tournament_Time.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/music/Town_-_Childhood_Home.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/music/Town_-_Childhood_Home.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/music/Town_-_Fancy_Castle.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/music/Town_-_Fancy_Castle.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/music/Town_-_Little_Village.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/music/Town_-_Little_Village.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/music/Town_-_Nice_Day_Out.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/music/Town_-_Nice_Day_Out.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/music/Town_-_Old_Palace.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/music/Town_-_Old_Palace.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/music/Town_-_Peaceful_Place.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/music/Town_-_Peaceful_Place.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/music/Town_-_Pleasant_Peasants.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/music/Town_-_Pleasant_Peasants.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/music/Town_-_Shop_Hopping.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/music/Town_-_Shop_Hopping.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/music/Town_-_Spooky_Manor.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/music/Town_-_Spooky_Manor.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/music/Town_-_Tavern_Tune.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/music/Town_-_Tavern_Tune.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/DVD_player_tray_close.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/DVD_player_tray_close.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/DVD_player_tray_open.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/DVD_player_tray_open.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/VCR_tape_eject.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/VCR_tape_eject.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/VCR_tape_insert.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/VCR_tape_insert.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/VCR_tape_out_of_sleeve.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/VCR_tape_out_of_sleeve.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/VCR_tape_rewind_LOOP.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/VCR_tape_rewind_LOOP.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/air_pump_01.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/air_pump_01.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/air_pump_02.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/air_pump_02.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/air_pump_03.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/air_pump_03.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/air_pump_LOOP.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/air_pump_LOOP.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/bag_chips_rustle_01.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/bag_chips_rustle_01.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/bag_chips_rustle_02.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/bag_chips_rustle_02.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/bag_paper_rustle_01.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/bag_paper_rustle_01.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/bag_paper_rustle_02.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/bag_paper_rustle_02.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/bag_plastic_rustle_01.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/bag_plastic_rustle_01.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/bag_plastic_rustle_02.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/bag_plastic_rustle_02.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/bag_plastic_rustle_03.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/bag_plastic_rustle_03.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/bang_fist_on_table_01.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/bang_fist_on_table_01.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/bang_fist_on_table_02.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/bang_fist_on_table_02.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/bang_fist_on_table_03.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/bang_fist_on_table_03.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/beep_01.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/beep_01.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/beep_alarm_clock.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/beep_alarm_clock.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/bell_sleigh_01.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/bell_sleigh_01.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/bell_sleigh_02.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/bell_sleigh_02.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/bell_small_01.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/bell_small_01.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/bell_small_02.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/bell_small_02.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/bell_small_03.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/bell_small_03.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/bird_call_01.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/bird_call_01.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/bird_call_02.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/bird_call_02.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/bird_single_01.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/bird_single_01.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/bird_single_02.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/bird_single_02.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/bird_single_03.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/bird_single_03.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/birds_LOOP_01.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/birds_LOOP_01.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/birds_LOOP_02.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/birds_LOOP_02.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/birds_LOOP_03.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/birds_LOOP_03.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/birds_LOOP_04.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/birds_LOOP_04.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/blinds_raise_01.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/blinds_raise_01.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/blinds_raise_02.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/blinds_raise_02.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/book_close_01.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/book_close_01.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/book_close_02.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/book_close_02.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/book_close_03.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/book_close_03.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/book_open_01.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/book_open_01.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/book_open_02.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/book_open_02.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/book_page_turn_01.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/book_page_turn_01.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/book_page_turn_02.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/book_page_turn_02.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/box_cardboard_cut_open_01.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/box_cardboard_cut_open_01.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/box_cardboard_cut_open_02.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/box_cardboard_cut_open_02.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/box_cardboard_cut_open_03.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/box_cardboard_cut_open_03.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/box_cardboard_open_01.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/box_cardboard_open_01.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/box_cardboard_open_02.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/box_cardboard_open_02.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/box_cardboard_open_03.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/box_cardboard_open_03.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/button_beep_01.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/button_beep_01.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/button_beep_02.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/button_beep_02.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/button_click_01.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/button_click_01.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/button_click_02.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/button_click_02.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/button_click_03.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/button_click_03.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/button_pop_01.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/button_pop_01.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/button_pop_02.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/button_pop_02.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/button_switch_01.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/button_switch_01.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/button_switch_02.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/button_switch_02.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/buzz_fluorescent_light.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/buzz_fluorescent_light.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/camera_flash_powerup.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/camera_flash_powerup.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/camera_shutter_old_01.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/camera_shutter_old_01.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/camera_shutter_old_02.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/camera_shutter_old_02.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/camera_shutter_old_03.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/camera_shutter_old_03.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/cap_medium_open.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/cap_medium_open.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/cap_screw_open.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/cap_screw_open.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/cap_small_open.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/cap_small_open.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/card_single_flip_01.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/card_single_flip_01.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/card_single_flip_02.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/card_single_flip_02.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/card_single_flip_03.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/card_single_flip_03.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/card_single_flip_04.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/card_single_flip_04.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/cards_deal_x7.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/cards_deal_x7.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/cards_deck_tap.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/cards_deck_tap.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/cards_shuffle_01.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/cards_shuffle_01.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/cards_shuffle_02.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/cards_shuffle_02.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/cards_shuffle_03.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/cards_shuffle_03.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/cards_shuffle_bridge_01.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/cards_shuffle_bridge_01.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/cards_shuffle_bridge_02.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/cards_shuffle_bridge_02.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/cards_shuffle_bridge_03.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/cards_shuffle_bridge_03.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/chair_creak_01.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/chair_creak_01.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/chair_creak_02.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/chair_creak_02.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/chair_creak_03.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/chair_creak_03.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/chair_wheeled_rolling_01.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/chair_wheeled_rolling_01.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/chair_wheeled_rolling_02.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/chair_wheeled_rolling_02.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/cicadas_LOOP_01.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/cicadas_LOOP_01.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/cicadas_LOOP_02.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/cicadas_LOOP_02.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/cloth_rustle_01.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/cloth_rustle_01.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/cloth_rustle_02.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/cloth_rustle_02.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/cloth_rustle_03.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/cloth_rustle_03.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/cloth_rustle_04.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/cloth_rustle_04.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/cloth_rustle_05.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/cloth_rustle_05.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/clothes_on_01.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/clothes_on_01.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/clothes_pants_on_01.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/clothes_pants_on_01.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/clothes_pants_on_02.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/clothes_pants_on_02.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/clothes_shirt_on_01.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/clothes_shirt_on_01.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/clothes_shirt_on_02.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/clothes_shirt_on_02.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/coin_single_fall_01.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/coin_single_fall_01.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/coin_single_fall_02.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/coin_single_fall_02.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/coins_jingle_01.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/coins_jingle_01.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/coins_jingle_02.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/coins_jingle_02.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/coins_jingle_03.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/coins_jingle_03.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/coins_jingle_04.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/coins_jingle_04.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/computer_OS_exit_01.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/computer_OS_exit_01.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/computer_OS_exit_02.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/computer_OS_exit_02.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/computer_OS_welcome_01.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/computer_OS_welcome_01.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/computer_OS_welcome_02.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/computer_OS_welcome_02.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/computer_OS_welcome_03.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/computer_OS_welcome_03.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/computer_instant_message_alert_01.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/computer_instant_message_alert_01.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/computer_instant_message_alert_02.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/computer_instant_message_alert_02.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/computer_instant_message_alert_03.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/computer_instant_message_alert_03.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/computer_startup_01.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/computer_startup_01.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/computer_typing_01.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/computer_typing_01.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/computer_typing_02.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/computer_typing_02.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/computer_typing_03.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/computer_typing_03.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/cooking_frying_sizzle_LOOP.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/cooking_frying_sizzle_LOOP.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/cooking_microwave.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/cooking_microwave.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/cooking_oven_burner_ignite.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/cooking_oven_burner_ignite.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/cooking_oven_door_close.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/cooking_oven_door_close.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/cooking_pan_stirring_sauce_01.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/cooking_pan_stirring_sauce_01.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/cooking_pan_stirring_sauce_02.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/cooking_pan_stirring_sauce_02.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/cooking_pan_stirring_sauce_03.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/cooking_pan_stirring_sauce_03.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/cooking_pan_stirring_sauce_LOOP.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/cooking_pan_stirring_sauce_LOOP.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/cooking_pans_01.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/cooking_pans_01.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/cooking_pans_02.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/cooking_pans_02.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/cooking_pans_03.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/cooking_pans_03.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/cooking_pans_04.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/cooking_pans_04.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/cooking_silverware_clanks_01.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/cooking_silverware_clanks_01.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/cooking_silverware_clanks_02.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/cooking_silverware_clanks_02.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/cooking_silverware_clanks_03.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/cooking_silverware_clanks_03.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/cooking_silverware_clanks_04.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/cooking_silverware_clanks_04.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/cooking_silverware_on_plate.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/cooking_silverware_on_plate.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/cooking_spray_oil.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/cooking_spray_oil.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/cooking_spray_oil_S.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/cooking_spray_oil_S.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/cooking_toaster_springs.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/cooking_toaster_springs.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/cooking_water_boiling_LOOP.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/cooking_water_boiling_LOOP.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/curtains_open_01.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/curtains_open_01.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/curtains_open_02.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/curtains_open_02.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/dice_roll_01.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/dice_roll_01.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/dice_roll_02.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/dice_roll_02.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/dice_roll_03.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/dice_roll_03.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/dice_shake_01.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/dice_shake_01.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/dog_bark_01.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/dog_bark_01.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/dog_bark_02.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/dog_bark_02.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/dog_bark_small_01.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/dog_bark_small_01.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/dog_bark_small_02.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/dog_bark_small_02.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/dog_bark_small_03.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/dog_bark_small_03.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/dog_pant_01.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/dog_pant_01.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/dog_pant_02.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/dog_pant_02.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/dog_sniff.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/dog_sniff.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/dog_snort.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/dog_snort.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/door_cabinet_01.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/door_cabinet_01.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/door_cabinet_02.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/door_cabinet_02.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/door_cabinet_03.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/door_cabinet_03.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/door_cabinet_metal_01.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/door_cabinet_metal_01.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/door_cabinet_squeak_01.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/door_cabinet_squeak_01.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/door_cabinet_squeak_02.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/door_cabinet_squeak_02.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/door_close_01.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/door_close_01.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/door_close_02.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/door_close_02.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/door_close_03.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/door_close_03.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/door_close_04.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/door_close_04.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/door_creak_01.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/door_creak_01.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/door_creak_02.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/door_creak_02.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/door_creak_03.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/door_creak_03.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/door_creak_04.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/door_creak_04.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/door_hatch_01.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/door_hatch_01.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/door_knock_01.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/door_knock_01.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/door_knock_02.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/door_knock_02.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/door_lock_01.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/door_lock_01.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/door_lock_02.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/door_lock_02.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/door_lock_03.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/door_lock_03.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/door_lock_04.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/door_lock_04.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/door_metal_01.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/door_metal_01.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/door_metal_02.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/door_metal_02.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/door_open_01.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/door_open_01.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/door_open_02.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/door_open_02.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/door_sliding.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/door_sliding.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/drawer_close_01.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/drawer_close_01.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/drawer_close_02.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/drawer_close_02.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/drawer_close_03.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/drawer_close_03.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/drawer_close_04.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/drawer_close_04.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/drawer_close_05.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/drawer_close_05.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/drawer_close_hard.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/drawer_close_hard.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/drawer_metal.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/drawer_metal.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/drawer_open_01.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/drawer_open_01.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/drawer_open_02.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/drawer_open_02.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/drawer_open_03.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/drawer_open_03.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/drawer_open_04.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/drawer_open_04.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/drawer_open_05.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/drawer_open_05.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/drawer_silverware_close.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/drawer_silverware_close.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/drawer_silverware_open.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/drawer_silverware_open.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/drawer_squeaky_handle.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/drawer_squeaky_handle.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/drawer_wooden.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/drawer_wooden.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/fan_LOOP_01.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/fan_LOOP_01.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/fan_on_off.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/fan_on_off.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/fire_firepalce_LOOP_01.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/fire_firepalce_LOOP_01.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/flamethrower_LOOP_01.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/flamethrower_LOOP_01.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/flute_overblown.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/flute_overblown.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/food_cereal_pour_01.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/food_cereal_pour_01.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/food_cereal_pour_02.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/food_cereal_pour_02.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/food_chewing_LOOP.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/food_chewing_LOOP.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/food_chips_crunch_01.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/food_chips_crunch_01.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/food_chips_crunch_02.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/food_chips_crunch_02.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/food_chips_crunch_x3_01.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/food_chips_crunch_x3_01.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/food_chips_crunch_x3_02.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/food_chips_crunch_x3_02.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/food_egg_shell.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/food_egg_shell.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/food_icemaker_01.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/food_icemaker_01.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/food_soda_open_01.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/food_soda_open_01.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/food_soda_open_02.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/food_soda_open_02.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/food_soda_open_03.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/food_soda_open_03.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/footsteps_outdoor_boots.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/footsteps_outdoor_boots.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/footsteps_outdoor_boots_on_wood.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/footsteps_outdoor_boots_on_wood.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/footsteps_shoes_fast_01.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/footsteps_shoes_fast_01.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/footsteps_shoes_on_wood_01.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/footsteps_shoes_on_wood_01.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/footsteps_shoes_on_wood_02.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/footsteps_shoes_on_wood_02.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/footsteps_snow_01.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/footsteps_snow_01.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/footsteps_snow_02.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/footsteps_snow_02.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/footsteps_soft_fast.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/footsteps_soft_fast.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/footsteps_stair_ascent_creaky.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/footsteps_stair_ascent_creaky.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/footsteps_water_01.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/footsteps_water_01.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/footsteps_water_02.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/footsteps_water_02.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/glass_break_01.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/glass_break_01.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/glass_break_02.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/glass_break_02.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/glass_break_03.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/glass_break_03.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/glass_break_04.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/glass_break_04.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/glass_break_05.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/glass_break_05.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/glass_ping.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/glass_ping.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/gong_01.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/gong_01.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/gong_02.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/gong_02.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/gong_03.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/gong_03.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/helicopter_LOOP_01.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/helicopter_LOOP_01.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/jackhammer_01.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/jackhammer_01.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/jackhammer_02.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/jackhammer_02.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/jackhammer_03.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/jackhammer_03.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/keys_01.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/keys_01.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/keys_02.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/keys_02.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/keys_03.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/keys_03.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/knife_scrape_01.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/knife_scrape_01.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/knife_scrape_02.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/knife_scrape_02.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/knife_scrape_03.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/knife_scrape_03.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/knife_scrape_04.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/knife_scrape_04.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/lawnmower_LOOP_01.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/lawnmower_LOOP_01.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/lawnmower_LOOP_02.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/lawnmower_LOOP_02.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/liquid_slosh_01.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/liquid_slosh_01.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/liquid_slosh_02.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/liquid_slosh_02.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/liquid_slosh_03.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/liquid_slosh_03.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/metal_clunk_01.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/metal_clunk_01.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/metal_clunk_02.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/metal_clunk_02.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/metal_hit_01.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/metal_hit_01.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/metal_hit_02.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/metal_hit_02.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/metal_hit_03.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/metal_hit_03.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/metal_hit_04.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/metal_hit_04.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/metal_hit_05.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/metal_hit_05.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/metal_hit_06.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/metal_hit_06.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/metal_rusty_squeak_01.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/metal_rusty_squeak_01.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/metal_rusty_squeak_02.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/metal_rusty_squeak_02.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/metal_rusty_squeak_03.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/metal_rusty_squeak_03.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/metal_rusty_squeak_04.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/metal_rusty_squeak_04.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/metal_rusty_squeak_05.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/metal_rusty_squeak_05.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/metal_small_drop_01.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/metal_small_drop_01.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/metal_small_drop_02.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/metal_small_drop_02.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/motor_electric_small_01.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/motor_electric_small_01.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/motor_electric_small_02.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/motor_electric_small_02.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/motor_electric_small_03.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/motor_electric_small_03.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/motor_electric_small_04.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/motor_electric_small_04.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/motor_electric_small_LOOP.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/motor_electric_small_LOOP.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/motor_gasoline_powered_LOOP.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/motor_gasoline_powered_LOOP.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/motor_powerdown_long.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/motor_powerdown_long.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/motor_washing_machine_LOOP_01.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/motor_washing_machine_LOOP_01.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/motor_washing_machine_LOOP_02.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/motor_washing_machine_LOOP_02.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/motor_washing_machine_LOOP_03.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/motor_washing_machine_LOOP_03.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/paper_crumple_01.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/paper_crumple_01.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/paper_crumple_02.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/paper_crumple_02.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/paper_money_bill_flip.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/paper_money_bill_flip.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/paper_money_bills_flip_x7.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/paper_money_bills_flip_x7.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/paper_page_turn_01.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/paper_page_turn_01.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/paper_page_turn_02.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/paper_page_turn_02.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/paper_page_turn_03.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/paper_page_turn_03.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/paper_page_turn_04.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/paper_page_turn_04.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/paper_shuffle_01.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/paper_shuffle_01.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/paper_shuffle_02.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/paper_shuffle_02.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/paper_tear_01.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/paper_tear_01.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/paper_tear_02.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/paper_tear_02.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/paper_tear_03.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/paper_tear_03.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/paper_tear_04.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/paper_tear_04.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/paper_tear_05.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/paper_tear_05.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/plastic_squeak_01.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/plastic_squeak_01.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/plastic_squeak_02.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/plastic_squeak_02.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/plastic_squeak_03.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/plastic_squeak_03.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/radio_static_01.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/radio_static_01.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/radio_static_02.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/radio_static_02.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/radio_static_03.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/radio_static_03.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/radio_static_04.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/radio_static_04.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/razor_01.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/razor_01.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/razor_02.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/razor_02.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/scissors_snip_01.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/scissors_snip_01.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/scissors_snip_02.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/scissors_snip_02.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/scissors_snips_x4.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/scissors_snips_x4.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/scissors_snips_x8.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/scissors_snips_x8.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/scrape_stone_01.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/scrape_stone_01.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/scrape_stone_02.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/scrape_stone_02.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/scrape_wood_01.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/scrape_wood_01.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/scrape_wood_02.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/scrape_wood_02.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/scrape_wood_03.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/scrape_wood_03.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/soap_hand_washing_01.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/soap_hand_washing_01.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/soap_hand_washing_02.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/soap_hand_washing_02.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/spray_aerosol_shake_01.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/spray_aerosol_shake_01.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/spray_aerosol_shake_02.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/spray_aerosol_shake_02.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/spray_aerosol_spray_01.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/spray_aerosol_spray_01.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/spray_aerosol_spray_02.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/spray_aerosol_spray_02.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/spray_aerosol_spray_03.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/spray_aerosol_spray_03.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/spray_cleanser_01.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/spray_cleanser_01.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/spray_cleanser_02.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/spray_cleanser_02.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/spray_cleanser_03.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/spray_cleanser_03.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/spray_hand_pump_small.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/spray_hand_pump_small.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/spring_01.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/spring_01.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/spring_02.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/spring_02.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/squishy_thing_01.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/squishy_thing_01.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/squishy_thing_02.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/squishy_thing_02.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/squishy_thing_03.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/squishy_thing_03.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/squishy_thing_04.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/squishy_thing_04.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/squishy_thing_05.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/squishy_thing_05.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/squishy_thing_06.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/squishy_thing_06.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/squishy_thing_07.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/squishy_thing_07.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/squishy_thing_08.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/squishy_thing_08.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/squishy_thing_09.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/squishy_thing_09.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/squishy_thing_10.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/squishy_thing_10.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/stapler_open.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/stapler_open.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/stapler_staple_01.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/stapler_staple_01.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/stapler_staple_02.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/stapler_staple_02.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/stapler_staple_03.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/stapler_staple_03.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/tape_duct_pulloff_01.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/tape_duct_pulloff_01.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/tape_duct_pulloff_02.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/tape_duct_pulloff_02.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/tape_duct_pulloff_03.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/tape_duct_pulloff_03.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/tape_duct_pulloff_04.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/tape_duct_pulloff_04.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/tape_duct_pulloff_05.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/tape_duct_pulloff_05.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/tape_duct_rip_01.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/tape_duct_rip_01.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/tape_duct_rip_02.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/tape_duct_rip_02.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/tape_duct_rip_03.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/tape_duct_rip_03.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/tape_duct_rip_04.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/tape_duct_rip_04.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/tape_scotch_pull_rip.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/tape_scotch_pull_rip.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/tape_scotch_pulloff_01.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/tape_scotch_pulloff_01.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/tape_scotch_pulloff_02.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/tape_scotch_pulloff_02.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/tape_scotch_rip.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/tape_scotch_rip.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/telephone_cellular_ring_01.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/telephone_cellular_ring_01.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/telephone_cellular_ring_02.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/telephone_cellular_ring_02.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/telephone_cellular_vibrate.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/telephone_cellular_vibrate.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/telephone_dial_tone_LOOP.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/telephone_dial_tone_LOOP.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/telephone_number_disconnected_tone.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/telephone_number_disconnected_tone.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/telephone_out_of_service.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/telephone_out_of_service.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/telephone_ringing_01.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/telephone_ringing_01.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/telephone_ringing_02.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/telephone_ringing_02.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/telephone_ringing_03.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/telephone_ringing_03.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/thud_01.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/thud_01.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/thud_02.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/thud_02.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/thud_03.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/thud_03.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/thud_04.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/thud_04.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/thud_05.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/thud_05.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/thud_06.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/thud_06.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/thud_07.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/thud_07.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/thud_08.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/thud_08.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/thud_09.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/thud_09.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/tissue_pulled_from_box.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/tissue_pulled_from_box.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/toilet_flush_01.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/toilet_flush_01.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/toilet_flush_02.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/toilet_flush_02.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/tool_drill.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/tool_drill.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/tool_drill_02.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/tool_drill_02.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/tool_hammer_01.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/tool_hammer_01.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/tool_hammer_02.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/tool_hammer_02.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/tool_hammer_03.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/tool_hammer_03.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/tool_hammer_x7.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/tool_hammer_x7.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/tool_hedgeclipper.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/tool_hedgeclipper.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/tool_jigsaw.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/tool_jigsaw.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/tool_powersaw_01.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/tool_powersaw_01.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/tool_powersaw_02.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/tool_powersaw_02.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/tool_powersaw_LOOP.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/tool_powersaw_LOOP.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/tool_saw_01.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/tool_saw_01.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/tool_saw_02.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/tool_saw_02.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/tool_saw_03.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/tool_saw_03.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/tool_saw_LOOP_01.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/tool_saw_LOOP_01.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/tool_saw_LOOP_02.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/tool_saw_LOOP_02.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/tool_staplegun.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/tool_staplegun.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/toothbrush_brushing_teeth_01.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/toothbrush_brushing_teeth_01.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/toothbrush_brushing_teeth_02.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/toothbrush_brushing_teeth_02.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/vehicle_construction_backup_beep_LOOP.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/vehicle_construction_backup_beep_LOOP.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/vehicle_door_lock_01.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/vehicle_door_lock_01.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/vehicle_door_open_01.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/vehicle_door_open_01.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/vehicle_door_shut_01.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/vehicle_door_shut_01.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/vehicle_door_shut_02.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/vehicle_door_shut_02.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/vehicle_door_shut_03.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/vehicle_door_shut_03.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/vehicle_door_shut_04.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/vehicle_door_shut_04.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/vehicle_door_shut_05.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/vehicle_door_shut_05.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/vehicle_engine_idle_LOOP_01.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/vehicle_engine_idle_LOOP_01.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/vehicle_engine_idle_LOOP_02.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/vehicle_engine_idle_LOOP_02.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/vehicle_engine_rev_01.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/vehicle_engine_rev_01.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/vehicle_ignition_01.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/vehicle_ignition_01.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/vehicle_ignition_02.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/vehicle_ignition_02.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/vehicle_tree_shredder.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/vehicle_tree_shredder.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/vehicle_tree_shredder_LOOP.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/vehicle_tree_shredder_LOOP.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/vehicle_turn_signal_01.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/vehicle_turn_signal_01.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/vehicle_van_hatch_01.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/vehicle_van_hatch_01.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/vehicle_van_hatch_02.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/vehicle_van_hatch_02.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/vehicle_van_hatch_03.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/vehicle_van_hatch_03.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/water_drain_01.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/water_drain_01.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/water_drain_02.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/water_drain_02.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/water_drain_03.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/water_drain_03.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/water_drain_LOOP.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/water_drain_LOOP.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/water_faucet_01.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/water_faucet_01.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/water_faucet_02.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/water_faucet_02.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/water_faucet_03.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/water_faucet_03.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/water_faucet_LOOP_01.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/water_faucet_LOOP_01.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/water_faucet_LOOP_02.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/water_faucet_LOOP_02.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/water_faucet_old_leaky.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/water_faucet_old_leaky.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/water_faucet_quiet_01.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/water_faucet_quiet_01.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/water_glass_filling_up.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/water_glass_filling_up.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/water_glass_filling_up_02.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/water_glass_filling_up_02.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/water_glass_filling_up_03.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/water_glass_filling_up_03.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/water_movement_01.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/water_movement_01.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/water_movement_02.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/water_movement_02.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/water_poured_out_01.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/water_poured_out_01.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/water_poured_out_02.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/water_poured_out_02.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/water_shake.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/water_shake.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/water_sink_filling.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/water_sink_filling.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/water_washing_machine_fill-up_LOOP.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/water_washing_machine_fill-up_LOOP.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/weather_rainfall.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/weather_rainfall.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/wood_break_01.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/wood_break_01.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/wood_break_02.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/wood_break_02.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/wood_break_03.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/wood_break_03.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/wood_break_drop_01.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/wood_break_drop_01.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/wood_break_drop_02.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/wood_break_drop_02.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/wood_break_drop_03.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/wood_break_drop_03.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/wood_break_drop_04.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/wood_break_drop_04.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/wood_break_drop_05.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/wood_break_drop_05.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/wood_break_drop_06.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/wood_break_drop_06.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/wood_creak_01.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/wood_creak_01.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/wood_creak_02.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/wood_creak_02.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/wood_creak_03.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/wood_creak_03.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/wood_snap_01.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/wood_snap_01.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/writing_inkpen_01.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/writing_inkpen_01.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/writing_pencil_01.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/writing_pencil_01.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/writing_pencil_02.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/writing_pencil_02.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/writing_pencil_03.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/writing_pencil_03.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/writing_pencil_eraser_01.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/writing_pencil_eraser_01.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/writing_pencil_eraser_02.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/writing_pencil_eraser_02.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/writing_quill_pen_01.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/writing_quill_pen_01.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/writing_quill_pen_02.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/writing_quill_pen_02.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/zipper_01.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/zipper_01.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/zipper_02.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/zipper_02.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/zipper_03.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/zipper_03.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sounds/zipper_04.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sounds/zipper_04.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/core/Makefile.am" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/Makefile.am" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/core/actor.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/actor.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/core/actor.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/actor.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/core/board.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/board.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/core/board.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/board.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/core/box.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/box.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/core/box.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/box.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/core/movable.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/movable.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/core/movable.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/movable.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/core/platform.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/platform.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/core/platform.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/platform.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/core/player.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/player.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/core/player.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/player.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/core/wall.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/wall.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/core/wall.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/wall.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.hpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +684,9 @@
     <option name="majorVersion" value="2021" />
     <option name="minorVersion" value="3" />
   </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 3
+}]]></component>
   <component name="ProjectId" id="22ISeTOKRLb7gOu1RgIE1P3v7RC" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -45,24 +695,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="RunOnceActivity.cidr.known.project.marker" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="cf.first.check.clang-format" value="false" />
-    <property name="cidr.known.project.marker" value="true" />
-    <property name="cmake.loaded.for.project" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../build" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.readMode.enableVisualFormatting": "true",
+    "RunOnceActivity.west.config.association.type.startup.service": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "/zdata/Projects/Sokoban/Sokoban-SDL-Cpp/Sokoban",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "settings.sync",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
   <component name="RunManager">
-    <configuration name="Sokoban" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Sokoban" TARGET_NAME="Sokoban" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Sokoban" RUN_TARGET_NAME="Sokoban">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -78,11 +730,24 @@
       <updated>1639523708447</updated>
       <workItem from="1639523714826" duration="1591000" />
       <workItem from="1639578008711" duration="300000" />
+      <workItem from="1639756747880" duration="189000" />
+      <workItem from="1639757032835" duration="12238000" />
+      <workItem from="1640520036891" duration="765000" />
+      <workItem from="1640539762713" duration="4894000" />
+      <workItem from="1640608727876" duration="465000" />
+      <workItem from="1648907178620" duration="14000" />
+      <workItem from="1652549392096" duration="793000" />
+      <workItem from="1746882461084" duration="327000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VCPKGProject">
+    <isAutomaticCheckingOnLaunch value="false" />
+    <isAutomaticFoundErrors value="true" />
+    <isAutomaticReloadCMake value="true" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">

@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.10)
+cmake_minimum_required(VERSION 3.30)
 project(Sokoban VERSION 1.0)
 
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -Wall -Wextra -Werror")
@@ -11,11 +11,11 @@ add_executable(${PROJECT_NAME} src/main.cpp src/main.hpp src/core/actor.cpp src/
 
 include(FindPkgConfig)
 
-pkg_search_module(SDL2 REQUIRED sdl2)
-pkg_search_module(SDL2_Image REQUIRED SDL2_image)
+pkg_search_module(SDL3 REQUIRED sdl3)
+pkg_search_module(SDL3_Image REQUIRED sdl3_image)
 
-include_directories(${SDL2_INCLUDE_DIRS} ${SDL2_Image_INCLUDE_DIRS})
+include_directories(${SDL3_INCLUDE_DIRS} ${SDL3_Image_INCLUDE_DIRS})
 include_directories(${Boost_INCLUDE_DIR})
 
-target_link_libraries(${PROJECT_NAME} ${SDL2_LIBRARIES} ${SDL2_Image_LIBRARIES})
+target_link_libraries(${PROJECT_NAME} ${SDL3_LIBRARIES} ${SDL3_Image_LIBRARIES})
 target_link_libraries(${PROJECT_NAME} ${Boost_LIBRARIES})

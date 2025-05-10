@@ -223,12 +223,112 @@ bool Board::check_box_collision( const int type )
     switch ( type )
     {
         case LEFT_COLLISION:
+            for( Box *box : _boxes )
+            {
+                for( Player *player : _players )
+                {
+                    if( player->is_left_collision( box ) )
+                    {
+                        for( Box *other_box : _boxes )
+                        {
+                            if( box != other_box )
+                            {
+                                if( box->is_left_collision( other_box ) )
+                                {
+                                    return true;
+                                }
+                            }
+                            if( check_wall_collision( box, LEFT_COLLISION ) )
+                            {
+                                return true;
+                            }
+                        }
+                        box->move( -SPACE, 0 );
+                        is_completed();
+                    }
+                }
+            }
             return false;
         case RIGHT_COLLISION:
+            for( Box *box : _boxes )
+            {
+                for( Player *player : _players )
+                {
+                    if( player->is_right_collision( box ) )
+                    {
+                        for( Box *other_box : _boxes )
+                        {
+                            if( box != other_box )
+                            {
+                                if( box->is_right_collision( other_box ) )
+                                {
+                                    return true;
+                                }
+                            }
+                            if( check_wall_collision( box, RIGHT_COLLISION ) )
+                            {
+                                return true;
+                            }
+                        }
+                        box->move( SPACE, 0 );
+                        is_completed();
+                    }
+                }
+            }
             return false;
         case TOP_COLLISION:
+            for( Box *box : _boxes )
+            {
+                for( Player *player : _players )
+                {
+                    if( player->is_top_collision( box ) )
+                    {
+                        for( Box *other_box : _boxes )
+                        {
+                            if( box != other_box )
+                            {
+                                if( box->is_top_collision( other_box ) )
+                                {
+                                    return true;
+                                }
+                            }
+                            if( check_wall_collision( box, TOP_COLLISION ) )
+                            {
+                                return true;
+                            }
+                        }
+                        box->move( 0, -SPACE );
+                        is_completed();
+                    }
+                }
+            }
             return false;
         case BOTTOM_COLLISION:
+            for( Box *box : _boxes )
+            {
+                for( Player *player : _players )
+                {
+                    if( player->is_bottom_collision( box ) )
+                    {
+                        for( Box *other_box : _boxes )
+                        {
+                            if( box != other_box )
+                            {
+                                if( box->is_bottom_collision( other_box ) )
+                                {
+                                    return true;
+                                }
+                            }
+                            if( check_wall_collision( box, BOTTOM_COLLISION ) )
+                            {
+                                return true;
+                            }
+                        }
+                        box->move( 0, SPACE );
+                        is_completed();
+                    }
+                }
+            }
             return false;
         default:
             return false;
@@ -251,12 +351,7 @@ bool Board::is_completed() const
         }
     }
 
-    if ( finished_boxes == number_of_boxes )
-    {
-        return true;
-    }
-
-    return false;
+    return finished_boxes == number_of_boxes;
 }
 
 std::string Board::get_level() const
