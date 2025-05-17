@@ -1,4 +1,4 @@
-#include "movable.hpp"
+#include <core/movable.hpp>
 
 Movable::Movable( int x, int y )
         : Actor( x, y )

@@ -1,4 +1,4 @@
-#include "wall.hpp"
+#include <core/wall.hpp>
 
 #include <sstream>
 

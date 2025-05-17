@@ -1,9 +1,9 @@
 #include "main.hpp"
 
-#include "core/board.hpp"
+#include <core/board.hpp>
 
-#include <SDL2/SDL.h>
-#include <SDL2/SDL_image.h>
+#include <SDL3/SDL.h>
+#include <SDL3_image/SDL_image.h>
 
 #include <iostream>
 
@@ -33,7 +33,7 @@ SDL_Surface *box_surface = nullptr;
 
 int main( int argc, char *argv[] )
 {
-    std::cout << "Sokoban by Giorgio Caculli W/ SDL2" << std::endl;
+    std::cout << "Sokoban by Giorgio Caculli W/ SDL3" << std::endl;
 
     std::cout << "Number of arguments: " << std::to_string( argc ) << std::endl;
 
@@ -82,7 +82,7 @@ bool init()
     }
     else
     {
-        window = SDL_CreateWindow( "Sokoban", SDL_WINDOWPOS_UNDEFINED, SDL_WINDOWPOS_UNDEFINED, SCREEN_WIDTH, SCREEN_HEIGHT, SDL_WINDOW_SHOWN );
+        window = SDL_CreateWindow( "Sokoban", SCREEN_WIDTH, SCREEN_HEIGHT, SDL_WINDOW_BORDERLESS );
         if ( window == nullptr )
         {
             std::cerr << "Window could not be created! SDL_Error: " << SDL_GetError() << std::endl;
@@ -114,7 +114,7 @@ bool load_media()
 
 void close()
 {
-    SDL_FreeSurface( box_surface );
+    SDL_DestroySurface( box_surface );
 
     box_surface = nullptr;
 

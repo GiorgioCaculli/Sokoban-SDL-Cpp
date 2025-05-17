@@ -1,4 +1,4 @@
-#include "actor.hpp"
+#include <core/actor.hpp>
 
 #include <sstream>
 
