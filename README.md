@@ -1,30 +1,18 @@
-# Sokoban Game written in C++11 and SDL2
+# Sokoban Game written in C++20 and SDL3
 
 ## Authors:
-- Giorgio Caculli
+- [Giorgio Caculli](mailto:giorgio.caculli@icloud.com)
 
 ## Dependencies
-- SDL2
-- SDL2 gfx
-- SDL2 image
-- SDL2 mixer
-- SDL2 net
-- SDL2 ttf
-- Boost
+- [GzC's Util Library](https://www.gitlab.com/GiorgioCaculli/Util-Cpp)
+- [GzC's Sokoban Core Library](https://www.gitlab.com/GiorgioCaculli/Sokoban-SDL)
+- [SDL3](https://wiki.libsdl.org/SDL3/FrontPage)
+- [SDL3 image](https://wiki.libsdl.org/SDL3_image/FrontPage)
 
 ## Build Tools:
-- Autotools
-- CMake
+- [CMake](https://cmake.org/)
 
 ## Building Instructions:
-
-### Autotools
-1. mkdir build
-2. cd build
-3. autoreconf -fiv ../Sokoban
-4. ../Sokoban/configure
-5. make
-
 ### CMake
 1. mkdir build
 2. cd build
