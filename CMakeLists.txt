@@ -55,8 +55,13 @@ include_directories(${SDL3_INCLUDE_DIRS} ${SDL3_image_INCLUDE_DIRS} ${GZC_GAMES_
 add_executable(SokobanSDL
         src/main.cpp
         src/gui/Window.cpp
-        src/gui/Menu.cpp
-        src/gui/MenuPause.cpp
-        src/gui/MenuSettings.cpp)
+        src/gui/Panel.cpp
+        src/gui/state/State.cpp
+        src/gui/state/StatePause.cpp
+        src/gui/state/StateSettings.cpp
+        src/gui/state/StateGame.cpp
+        src/gui/state/StateStack.cpp
+        src/gui/state/StateTitle.cpp
+        src/gui/component/Component.cpp)
 
 target_link_libraries(SokobanSDL ${SDL3_LIBRARIES} SDL3_image::SDL3_image SDL3_ttf::SDL3_ttf ${GZC_UTIL_LOGGER} ${GZC_UTIL_SERIALIZE} ${GZC_GAMES_SOKOBAN})

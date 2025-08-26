@@ -4,12 +4,6 @@
 #include <string>
 
 #include <SDL3/SDL.h>
-bool init();
-
-bool load_media();
-
-void close();
-
 
 namespace sokoban::gui
 {

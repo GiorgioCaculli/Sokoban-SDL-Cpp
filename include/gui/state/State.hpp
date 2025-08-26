@@ -2,9 +2,9 @@
 #define SOKOBAN_MENU_HPP
 
 
-namespace sokoban::gui
+namespace sokoban::gui::state
 {
-    class Menu
+    class State
     {
     };
 }

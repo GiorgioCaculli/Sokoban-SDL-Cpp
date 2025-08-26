@@ -1,10 +1,12 @@
 #ifndef SOKOBAN_MENUPAUSE_HPP
 #define SOKOBAN_MENUPAUSE_HPP
 
-
-class MenuPause
+namespace sokoban::gui::state
 {
-};
+    class StatePause
+    {
+    };
+}
 
 
 #endif //SOKOBAN_MENUPAUSE_HPP
