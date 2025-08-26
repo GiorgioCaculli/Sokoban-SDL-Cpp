@@ -1,0 +1,10 @@
+#ifndef SOKOBAN_MENUPAUSE_HPP
+#define SOKOBAN_MENUPAUSE_HPP
+
+
+class MenuPause
+{
+};
+
+
+#endif //SOKOBAN_MENUPAUSE_HPP

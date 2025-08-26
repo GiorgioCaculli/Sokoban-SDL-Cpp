@@ -8,7 +8,7 @@
 
 int main( const int argc, char* argv[ ] )
 {
-    std::cout << "Sokoban by Giorgio Caculli W/ SDL3" << std::endl;
+    std::cout << "Sokoban by Giorgio Caculli w/ SDL3" << std::endl;
 
     std::cout << "Number of arguments: " << std::to_string( argc ) << std::endl;
 
@@ -28,6 +28,10 @@ int main( const int argc, char* argv[ ] )
     bool loaded_media = window->load_media();
 
     std::cout << loaded_media << std::endl;
+
+    bool running = window->run();
+
+    std::cout << running << std::endl;
 
     delete window;
 

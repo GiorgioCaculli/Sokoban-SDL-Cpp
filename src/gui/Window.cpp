@@ -1,10 +1,12 @@
 #include <iostream>
 #include <gui/Window.hpp>
+#include <SDL3_image/SDL_image.h>
 
 using namespace sokoban::gui;
 
 Window::Window( uint16_t width, uint16_t height )
-    : _width( width ), _height( height ), _title( "SokobanSDL" )
+    : _width( width ), _height( height ), _title( "SokobanSDL" ), _window( nullptr ), _screen_surface( nullptr ),
+      _box_surface( nullptr )
 {
     init();
 }
@@ -46,18 +48,16 @@ bool Window::init()
     {
         std::cerr << "SDL could not initialize! SDL_Error: " << SDL_GetError() << std::endl;
         success = false;
-    }
-    else
+    } else
     {
-        window = SDL_CreateWindow( get_title().c_str(), get_width(), get_height(), SDL_WINDOW_BORDERLESS );
-        if ( window == nullptr )
+        _window = SDL_CreateWindow( get_title().c_str(), get_width(), get_height(), SDL_WINDOW_BORDERLESS );
+        if ( _window == nullptr )
         {
             std::cerr << "Window could not be created! SDL_Error: " << SDL_GetError() << std::endl;
             success = false;
-        }
-        else
+        } else
         {
-            screen_surface = SDL_GetWindowSurface( window );
+            _screen_surface = SDL_GetWindowSurface( _window );
         }
     }
 
@@ -67,49 +67,46 @@ bool Window::init()
 /** Loads media */
 bool Window::load_media()
 {
-    bool success = true;
-
     /* TODO: SDL3 Image linkage fails for function IMG_Load, to fix in CMakeLists.txt */
-    /*box_surface = IMG_Load( "assets/images/Preview_Sokoban.png" );
+    _box_surface = IMG_Load( "assets/images/Preview_Sokoban.png" );
 
-    if ( box_surface == nullptr )
+    if ( _box_surface == nullptr )
     {
         std::cerr << "Unable to load image Preview_Sokoban.png" << std::endl;
-        success = false;
-    }*/
-
-    if ( !init() )
-    {
-        std::cerr << "Failed to initialize" << std::endl;
-    }
-    else
-    {
-        if ( !load_media() )
-        {
-            std::cerr << "Failed to load media!" << std::endl;
-        }
-        else
-        {
-            SDL_BlitSurface( box_surface, nullptr, screen_surface, nullptr );
-            SDL_UpdateWindowSurface( window );
-            SDL_Delay( 2000 );
-        }
+        return false;
     }
 
-
-    return success;
+    return true;
 }
+
+bool Window::run()
+{
+    try
+    {
+        SDL_BlitSurface( _box_surface, nullptr, _screen_surface, nullptr );
+        SDL_UpdateWindowSurface( _window );
+        SDL_Delay( 2000 );
+    }
+    catch ( std::exception& e )
+    {
+        std::cerr << e.what() << std::endl;
+        return false;
+    }
+
+    return true;
+}
+
 
 /** Frees mediand and shuts down SDL */
 void Window::close()
 {
-    SDL_DestroySurface( box_surface );
+    SDL_DestroySurface( _box_surface );
 
-    box_surface = nullptr;
+    _box_surface = nullptr;
 
-    SDL_DestroyWindow( window );
+    SDL_DestroyWindow( _window );
 
-    window = nullptr;
+    _window = nullptr;
 
     SDL_Quit();
 }

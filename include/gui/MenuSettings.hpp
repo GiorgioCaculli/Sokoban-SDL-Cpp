@@ -1,0 +1,10 @@
+#ifndef SOKOBAN_MENUSETTINGS_HPP
+#define SOKOBAN_MENUSETTINGS_HPP
+
+
+class MenuSettings
+{
+};
+
+
+#endif //SOKOBAN_MENUSETTINGS_HPP
