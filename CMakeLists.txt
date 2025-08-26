@@ -62,6 +62,15 @@ add_executable(SokobanSDL
         src/gui/state/StateGame.cpp
         src/gui/state/StateStack.cpp
         src/gui/state/StateTitle.cpp
-        src/gui/component/Component.cpp)
+        src/gui/component/Component.cpp
+        src/gui/component/Button.cpp
+        src/gui/component/Container.cpp
+        src/gui/component/Label.cpp
+        src/gui/entity/Entity.cpp
+        src/gui/entity/EntityBox.cpp
+        src/gui/entity/EntityMovable.cpp
+        src/gui/entity/EntityPlatform.cpp
+        src/gui/entity/EntityPlayer.cpp
+        src/gui/entity/EntityWall.cpp)
 
 target_link_libraries(SokobanSDL ${SDL3_LIBRARIES} SDL3_image::SDL3_image SDL3_ttf::SDL3_ttf ${GZC_UTIL_LOGGER} ${GZC_UTIL_SERIALIZE} ${GZC_GAMES_SOKOBAN})
