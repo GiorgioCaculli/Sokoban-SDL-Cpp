@@ -46,7 +46,8 @@ find_library(GZC_UTIL_LOGGER util_logger REQUIRED)
 find_library(GZC_UTIL_SERIALIZE util_serialize REQUIRED)
 find_library(GZC_GAMES_SOKOBAN sokoban_core REQUIRED)
 
-file(COPY src/assets DESTINATION ${CMAKE_CURRENT_BINARY_DIR})
+file(COPY res/assets DESTINATION ${CMAKE_CURRENT_BINARY_DIR})
+file(COPY res/locale DESTINATION ${CMAKE_CURRENT_BINARY_DIR})
 
 include_directories(include)
 

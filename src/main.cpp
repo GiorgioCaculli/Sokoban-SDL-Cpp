@@ -27,13 +27,19 @@ int main( const int argc, char* argv[ ] )
 
     bool loaded_media = window->load_media();
 
-    std::cout << loaded_media << std::endl;
+    std::string loaded_media_str = loaded_media ? "True" : "False";
+
+    std::cout << "Media is loaded: " << loaded_media_str << std::endl;
 
     bool running = window->run();
 
-    std::cout << running << std::endl;
+    std::string running_str = running ? "True" : "False";
+
+    std::cout << "Window ran: " << running_str << std::endl;
 
     delete window;
+
+    std::cout << "Window is deleted" << std::endl;
 
     return 0;
 }
